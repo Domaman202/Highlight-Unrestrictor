@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.haykam821.highlightunrestrictor.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [],
+	"client": [
+		"ClientPlayerEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
