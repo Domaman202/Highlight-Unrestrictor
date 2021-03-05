@@ -2,9 +2,10 @@
 	"required": true,
 	"package": "io.github.haykam821.highlightunrestrictor.mixin",
 	"compatibilityLevel": "JAVA_8",
-	"mixins": [],
+	"plugin": "io.github.haykam821.highlightunrestrictor.mixin.HighlightUnrestrictorMixinConfigPlugin",
 	"client": [
-		"PlayerEntityMixin"
+		"PlayerEntityMixin",
+		"MinecraftClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
