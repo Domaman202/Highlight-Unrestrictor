@@ -15,6 +15,6 @@ public abstract class PlayerEntityMixin extends LivingEntity {
 	}
 
 	public boolean isGlowing() {
-		return super.isGlowing() || MinecraftClient.getInstance().options.keySpectatorOutlines.isPressed();
+		return super.isGlowing() || MinecraftClient.getInstance().options.spectatorOutlinesKey.isPressed();
 	}
 }

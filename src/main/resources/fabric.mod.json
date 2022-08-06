@@ -6,7 +6,8 @@
 	"name": "Highlight Unrestrictor",
 	"description": "Allows the 'Highlight Players' functionality to be used in all gamemodes.",
 	"authors": [
-		"haykam821"
+		"haykam821",
+		"DomamaN202"
 	],
 	"contact": {
 		"homepage": "https://github.com/haykam821/Highlight-Unrestrictor#readme",
